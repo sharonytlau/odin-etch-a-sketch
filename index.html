@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-A-Sketch</title>
+  <link rel="icon" type="image/x-icon" href="sharon-icon.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Neonderthaw|Indie+Flower|Kaushan+Script|Varela+Round|Work+Sans|Libre+Baskerville|Catamaran|Merriweather|Montserrat">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+
+  <div id="side-section"> 
+    
+    <div id="title">
+      <h1> Etch <span id="signature"> by Sharon <span> </h1> 
+      <h1 class="negative-margin"> A Sketch </h1>
+    </div>
+
+    <div id="settings">
+      
+      <input type="color" id="color-picker" value="#329f5b">
+
+      <div id="dimension-input">
+        <div id="dimension-display">10 × 10</div>
+        <input type="range" id="dimension-range" min="5" max="60" value="10"
+        step="5">
+      </div>
+
+      <button id="clear-btn">clear</button>
+    
+    </div>
+  
+  </div>
+  
+  <div id='sketch-pad'></div>
+  
+</body>
+</html>
